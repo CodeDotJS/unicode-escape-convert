@@ -5,8 +5,9 @@
 	<a href="https://travis-ci.org/CodeDotJS/unicode-escape-convert"><img src="https://travis-ci.org/CodeDotJS/unicode-escape-convert.svg?branch=master"></a>
 	<img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg">
 	<br>
-	<p align="center">Convert local and remote files containing unicode escapes to characters!</p>
 </h1>
+
+<p align="center">Convert local and remote files containing unicode escapes to characters!</p>
 
 ## Install
 
