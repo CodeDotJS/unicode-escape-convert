@@ -1,0 +1,57 @@
+{
+  "name": "unicode-escape-convert",
+  "version": "1.0.0",
+  "description": "Convert local and remote files containing unicode escapes to characters!",
+  "main": "cli.js",
+  "bin": {
+    "uec": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDotJS/unicode-escape-convert.git"
+  },
+  "keywords": [
+    "cli",
+    "cli-app",
+    "unicode",
+    "escape",
+    "unescape",
+    "change",
+    "convert",
+    "local",
+    "remote",
+    "text",
+    "json",
+    "files",
+    "regex"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "got": "^8.3.1",
+    "is-online": "^7.0.0",
+    "is-url": "^1.2.4",
+    "log-update": "^2.3.0",
+    "ora": "^2.1.0",
+    "unicodechar-string": "^1.0.0",
+    "update-notifier": "^2.5.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishigiri.ml)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeDotJS/unicode-escape-convert/issues"
+  },
+  "homepage": "https://github.com/CodeDotJS/unicode-escape-convert#readme"
+}
